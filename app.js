@@ -72,7 +72,7 @@ app.get("/contact", function(req, res) {
 });
 
 app.get("/compose", function(req, res) {
-  res.render("Compose", {postTitle: "Compose"});
+  res.render("compose", {postTitle: "Compose"});
 })
 
 app.post("/compose", async function(req, res) {
